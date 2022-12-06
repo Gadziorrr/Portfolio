@@ -89,6 +89,14 @@ header {
   color: var(--main-color);
 }
 
+#menu-icon {
+  color: var(--text-color);
+  font-size: 2rem;
+  z-index: 1001;
+  margin-left: 24px;
+  display: none;
+}
+
 /* Media queries */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
