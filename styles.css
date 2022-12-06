@@ -78,6 +78,15 @@ header {
   font-weight: 300;
   letter-spacing: 1px;
   margin: 0 10px;
+  transition: 0.45s ease;
+}
+
+.navlist a:hover {
+  color: var(--main-color);
+}
+
+.navlist a.active {
+  color: var(--main-color);
 }
 
 /* Media queries */
