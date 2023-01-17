@@ -1,4 +1,4 @@
 # Recipes
-Site where I can save my favourite recipes
+Site for my recipes that I will <em>maybe</em> use them in a future.
 
-Purpose of this site is to let it store recipes that <em>maybe</em> will use in future.
+<link rel="https://gadziorrr.github.io/Recipes/index.html">Click</link>
