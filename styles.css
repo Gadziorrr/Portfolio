@@ -49,41 +49,38 @@ body {
 
 span {
   font-weight: 900;
+  color: var(--main-color)
 }
 
 /* Header style */
 header {
-  position: fixed;
-
   width: 100%;
-  top: 0;
-  right: 0;
-  z-index: 1000;
-  padding: 24px 10%;
-  border-bottom: 1px solid transparent;
+  height: 100vh;
+  padding-bottom: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.logo {
-  color: var(--main-color);
-  font-size: 1.5rem;
-  font-weight: 500;
-  letter-spacing: 2px;
+.name {
+  font-weight: 800;
+}
+
+.title {
+  font-weight: 300;
 }
 
 .navlist {
+  margin-top: 10px;
   display: flex;
   justify-content: center;
-}
-
-.navlist ul {
-  display: flex;
-  justify-content: space-between;
 }
 
 .navlist a {
   color: var(--text-color);
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: 1px;
   margin: 0 10px;
   transition: 0.45s ease;
@@ -91,11 +88,6 @@ header {
 
 .navlist a:hover {
   color: var(--main-color);
-}
-
-.navlist a.active {
-  color: var(--main-color);
-  font-weight: 700;
 }
 
 #menu-icon {
@@ -106,13 +98,6 @@ header {
   display: none;
 }
 
-/* Section style */
-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
 
 /* Media queries */
 @media (prefers-reduced-motion: reduce) {
