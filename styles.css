@@ -47,16 +47,18 @@ body {
   color: var(--text-color);
 }
 
+span {
+  font-weight: 900;
+}
+
 /* Header style */
 header {
   position: fixed;
+
   width: 100%;
   top: 0;
   right: 0;
   z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 24px 10%;
   border-bottom: 1px solid transparent;
 }
@@ -68,8 +70,14 @@ header {
   letter-spacing: 2px;
 }
 
+.navlist {
+  display: flex;
+  justify-content: center;
+}
+
 .navlist ul {
   display: flex;
+  justify-content: space-between;
 }
 
 .navlist a {
@@ -87,6 +95,7 @@ header {
 
 .navlist a.active {
   color: var(--main-color);
+  font-weight: 700;
 }
 
 #menu-icon {
@@ -95,6 +104,14 @@ header {
   z-index: 1001;
   margin-left: 24px;
   display: none;
+}
+
+/* Section style */
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 /* Media queries */
