@@ -1,5 +1,5 @@
 # Recipes
-Site for my recipes that I will <em>maybe</em> use them in a future.
+Hello, I'm Michał, an aspiring Frontend developer.
 
 
-### [Click](https://gadziorrr.github.io/Recipes/index.html)
+### [Click](#)
